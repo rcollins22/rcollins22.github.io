@@ -11,7 +11,7 @@ jQuery(function($) { 'use strict';
 
         setTimeout(function() {
             $('body').addClass('loaded');
-        }, 3500);
+        }, 1500);
             
     });
 
@@ -103,8 +103,8 @@ jQuery(function($) { 'use strict';
 
         $('#type').typed({
             stringsElement: $('#in-details'),
-            typeSpeed: 1,
-            backDelay: 500,
+            typeSpeed: 2,
+            backDelay: 700,
             loop: false,
             contentType: 'html',
             loopCount: false
